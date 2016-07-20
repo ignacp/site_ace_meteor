@@ -1,0 +1,14 @@
+<!-- Comments list -->
+<template name="comments_list">
+  <div class="container">
+    <br>
+    <h3>Comments:</h3>
+    <br>
+    {{#each comments}}
+    <strong>Create by:</strong> {{createBy}}
+    <br>
+    <strong>Comment:</strong> {{comment}}
+    <br> 
+    {{/each}}
+  </div>
+</template>

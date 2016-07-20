@@ -1,0 +1,24 @@
+<template name="website_detail">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li class="active">Website detail</li>
+        </ol>
+    </div>
+    <div class="container">
+        <h4><strong>{{title}}</strong></h4>
+        <h5><strong>Description:</strong> {{description}}</h5>
+        <h5><strong>Create on:</strong> {{createdOn}}</h5>
+        <h5><strong>Votes:</strong> {{vote}}</h5>
+
+       <!-- {{> add_comments id=_id}} --> 
+       <!-- {{> comments_list id=_id}}   -->
+    </div>
+    
+    <div class="container">
+        <div class="comment-section">
+            {{> commentsBox id=_id}}
+        </div>
+    </div>
+    
+</template>

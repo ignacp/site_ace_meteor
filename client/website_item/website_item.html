@@ -1,0 +1,19 @@
+<template name="website_item">
+    <div class="container">
+    <li>
+        <a href="/website_detail/{{_id}}">{{title}}</a>
+        <p>
+            <strong>Description:</strong> {{description}}
+            <br> <strong>Create on:</strong> {{createdOn}}
+            <br> <strong>Votes:</strong> {{vote}}
+        </p>
+        <a href="#" class="btn btn-default js-upvote">
+            <span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
+        </a>
+        <a href="#" class="btn btn-default js-downvote">
+            <span class="glyphicon glyphicon-arrow-down" aria-hidden="true"></span>
+        </a>
+        
+    </li>
+    </div>
+</template>

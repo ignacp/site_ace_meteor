@@ -1,0 +1,10 @@
+<template name="website_list">
+  <div class="container">
+    <h3 style="text-align:center;"> Websites:</h3>
+    <ol>
+      {{#each websites}} 
+      {{> website_item}} 
+      {{/each}}
+    </ol>
+  </div>
+</template>
