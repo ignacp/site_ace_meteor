@@ -8,7 +8,8 @@ Accounts.ui.config({
   passwordSignupFields: 'USERNAME_AND_OPTIONAL_EMAIL'
 });
 
-// Comments config
+/* Comments config
 Comments.ui.config({
    template: 'bootstrap' // or ionic, semantic-ui
 });
+*/

@@ -21,5 +21,4 @@ twbs:bootstrap
 accounts-ui
 accounts-password
 iron:router
-arkham:comments-ui
 autopublish

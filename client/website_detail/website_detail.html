@@ -10,15 +10,21 @@
         <h5><strong>Description:</strong> {{description}}</h5>
         <h5><strong>Create on:</strong> {{createdOn}}</h5>
         <h5><strong>Votes:</strong> {{vote}}</h5>
+        <br>
+        <hr>
+        {{> add_comments id=_id}}
 
-       <!-- {{> add_comments id=_id}} --> 
-       <!-- {{> comments_list id=_id}}   -->
+        <br>
+        <h3>Comments:</h3>
+        {{> comments_list id=_id}}
+
     </div>
-    
+
+    <!--
     <div class="container">
         <div class="comment-section">
             {{> commentsBox id=_id}}
         </div>
     </div>
-    
+    -->
 </template>
